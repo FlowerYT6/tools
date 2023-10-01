@@ -12,12 +12,23 @@
 ## List of Tools
 
 - [Custom Loadings/Spinner](#custom-loadingsspinner)
+- [Carousel](#carousel)
+
+<br>
 
 ## Custom Loadings/Spinner
 
 |                            Name                             |                                                   Preview                                                   |
 | :---------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
 | [Custom Loading I](tools/custom-loadings/custom-loading-I/) | <img src="tools/custom-loadings/custom-loading-I/preview.gif" alt="Gif from custom loading I" height="128"> |
+
+<br>
+
+## Carousel
+
+|                        Name                        |                                              Preview                                               |
+| :------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+| [Simple Carousel](tools/carousel/simple-carousel/) | <img src="tools/carousel/simple-carousel/preview.gif" alt="Gif from simple carousel" height="128"> |
 
 </br>
 
