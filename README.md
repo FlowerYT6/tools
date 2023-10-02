@@ -21,6 +21,7 @@
 |                            Name                             |                                                   Preview                                                   |
 | :---------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
 | [Custom Loading I](tools/custom-loadings/custom-loading-I/) | <img src="tools/custom-loadings/custom-loading-I/preview.gif" alt="Gif from custom loading I" height="128"> |
+| [Skeleton Loading](tools/custom-loadings/skeleton-loading/) | <img src="tools/custom-loadings/skeleton-loading/preview.gif" alt="Gif from skeleton loading" height="128"> |
 
 <br>
 
