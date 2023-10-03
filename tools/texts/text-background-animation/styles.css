@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  gap: 10px;
+}
+text {
+  font-family: 'Dela Gothic One';
+  font-size: 76px;
+  line-height: 76px;
+  text-align: center;
+
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  background-image: url('https://source.unsplash.com/random?landscape,florest');
+  background-size: 120%;
+  animation: animation 10s cubic-bezier(0.3, 0, 0.7, 1) infinite;
+}
+@keyframes animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

@@ -13,6 +13,7 @@
 
 - [Custom Loadings/Spinner](#custom-loadingsspinner)
 - [Carousel](#carousel)
+- [Text Animations](#text-animations)
 
 <br>
 
@@ -30,6 +31,14 @@
 |                        Name                        |                                              Preview                                               |
 | :------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
 | [Simple Carousel](tools/carousel/simple-carousel/) | <img src="tools/carousel/simple-carousel/preview.gif" alt="Gif from simple carousel" height="128"> |
+
+<br>
+
+## Text Animations
+
+|                                   Name                                   |                                                         Preview                                                          |
+| :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| [Text with Background Animation](tools/texts/text-background-animation/) | <img src="tools/texts/text-background-animation/preview.gif" alt="Gif from text with background animation" height="128"> |
 
 </br>
 
