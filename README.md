@@ -14,31 +14,40 @@
 - [Custom Loadings/Spinner](#custom-loadingsspinner)
 - [Carousel](#carousel)
 - [Text Animations](#text-animations)
+- [Buttons](#buttons)
 
 <br>
 
 ## Custom Loadings/Spinner
 
-|                            Name                             |                                                   Preview                                                   |
-| :---------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-| [Custom Loading I](tools/custom-loadings/custom-loading-I/) | <img src="tools/custom-loadings/custom-loading-I/preview.gif" alt="Gif from custom loading I" height="128"> |
-| [Skeleton Loading](tools/custom-loadings/skeleton-loading/) | <img src="tools/custom-loadings/skeleton-loading/preview.gif" alt="Gif from skeleton loading" height="128"> |
+|                            Name                             |                                                        Preview                                                        |
+| :---------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+| [Custom Loading I](tools/custom-loadings/custom-loading-I/) | <img src="tools/custom-loadings/custom-loading-I/preview.gif" alt="Gif of custom loading I" width="128" height="128"> |
+| [Skeleton Loading](tools/custom-loadings/skeleton-loading/) | <img src="tools/custom-loadings/skeleton-loading/preview.gif" alt="Gif of skeleton loading" width="128" height="128"> |
 
 <br>
 
 ## Carousel
 
-|                        Name                        |                                              Preview                                               |
-| :------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| [Simple Carousel](tools/carousel/simple-carousel/) | <img src="tools/carousel/simple-carousel/preview.gif" alt="Gif from simple carousel" height="128"> |
+|                        Name                        |                                                   Preview                                                    |
+| :------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| [Simple Carousel](tools/carousel/simple-carousel/) | <img src="tools/carousel/simple-carousel/preview.gif" alt="Gif of simple carousel" width="128" height="128"> |
 
 <br>
 
 ## Text Animations
 
-|                                   Name                                   |                                                         Preview                                                          |
-| :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-| [Text with Background Animation](tools/texts/text-background-animation/) | <img src="tools/texts/text-background-animation/preview.gif" alt="Gif from text with background animation" height="128"> |
+|                                   Name                                   |                                                              Preview                                                               |
+| :----------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
+| [Text with Background Animation](tools/texts/text-background-animation/) | <img src="tools/texts/text-background-animation/preview.gif" alt="Gif of text with background animation" width="128" height="128"> |
+
+<br>
+
+## Buttons
+
+|                  Name                  |                                                 Preview                                                 |
+| :------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| [Switch Toggle](tools/buttons/switch/) | <img src="tools/buttons/switch/preview.gif" alt="Gif of switch toggle button" width="128" height="128"> |
 
 </br>
 

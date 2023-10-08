@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>EXAMPLE | Switch Toggle Button</title>
+  </head>
+  <body>
+    <label class="switch">
+      <input id="switch" type="checkbox" />
+      <span class="slider round"></span>
+    </label>
+    <text class="switchText">Off</text>
+  </body>
+  <script>
+    const switchButton = document.getElementById('switch');
+    switchButton.addEventListener('change', (e) => {
+      const isChecked = e.target.checked;
+
+      const text = document.getElementsByClassName('switchText')[0];
+      text.textContent = isChecked ? 'On' : 'Off';
+    });
+  </script>
+</html>
