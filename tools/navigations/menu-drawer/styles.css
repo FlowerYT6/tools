@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100dvh;
+  flex-direction: column;
+  background-color: #f3f3f3;
+}
+button:focus {
+  background-color: transparent;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.header text {
+  font-weight: 600;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.drawer {
+  display: flex;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  transition: 0.3s;
+  height: 100dvh;
+  overflow-y: hidden;
+}
+.drawer nav {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1e;
+  width: 70%;
+  height: 100%;
+  position: relative;
+  padding-top: 60px;
+}
+.drawer a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #666666;
+  display: block;
+  transition: 0.3s;
+}
+.drawer a:hover {
+  color: #f3f3f3;
+}
+.drawer .closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #f3f3f3;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.drawer .closeButton:hover {
+  color: #666666;
+}
+.drawer .backdrop {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .drawer {
+    transition: 0.5s;
+  }
+  .drawer nav {
+    width: 30%;
+  }
+  .drawer .backdrop {
+    width: 70%;
+  }
+}

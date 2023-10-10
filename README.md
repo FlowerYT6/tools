@@ -15,6 +15,7 @@
 - [Carousel](#carousel)
 - [Text Animations](#text-animations)
 - [Buttons](#buttons)
+- [Navigations](#navigations)
 
 <br>
 
@@ -48,6 +49,14 @@
 |                  Name                  |                                                 Preview                                                 |
 | :------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
 | [Switch Toggle](tools/buttons/switch/) | <img src="tools/buttons/switch/preview.gif" alt="Gif of switch toggle button" width="128" height="128"> |
+
+<br>
+
+## Navigations
+
+|                     Name                      |                                                 Preview                                                 |
+| :-------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| [Menu Drawer](tools/navigations/menu-drawer/) | <img src="tools/navigations/menu-drawer/preview.gif" alt="Gif of menu drawer" width="128" height="128"> |
 
 </br>
 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>EXAMPLE | MENU DRAWER</title>
+  </head>
+  <body>
+    <div id="drawer" class="drawer">
+      <nav>
+        <button class="closeButton" onclick="closeDrawer()">
+          &times;
+        </button>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="backdrop" onclick="closeDrawer()"></button>
+    </div>
+
+    <div class="header">
+      <div></div>
+      <text>MENU DRAWER</text>
+      <span
+        style="font-size: 30px; cursor: pointer"
+        onclick="openDrawer()"
+        >&#9776;</span
+      >
+    </div>
+  </body>
+  <script>
+    function openDrawer() {
+      document.getElementById('drawer').style.width = '100%';
+    }
+
+    function closeDrawer() {
+      document.getElementById('drawer').style.width = '0';
+    }
+  </script>
+</html>
