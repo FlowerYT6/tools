@@ -46,10 +46,10 @@ body {
   transition: 0.4s;
 }
 input:checked + .slider {
-  background-color: #fbb034;
+  background-color: green;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #fbb034;
+  box-shadow: 0 0 1px grey;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
